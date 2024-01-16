@@ -1,8 +1,7 @@
+using GlassyCode.LCA.Tests.ECS.Components;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Transforms;
-using GlassyCode.LCA.Tests.ECS.Components;
-
 
 namespace GlassyCode.LCA.Tests.ECS.Systems
 {
