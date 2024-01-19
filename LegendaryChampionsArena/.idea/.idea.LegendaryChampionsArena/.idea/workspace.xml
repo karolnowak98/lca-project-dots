@@ -5,13 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78765a02-0c91-489e-8130-6937b656b605" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingEntityData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingEntityData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingName.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/TownEntityData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/TownEntityData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/ArmorType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/ArmorType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/AttackType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/AttackType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitName.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseEntityData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseSettings.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest/SubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest/SubScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Castles/Castle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Castles/Castle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Units/Unit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Units/Unit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems/UnitsSpawnerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems/UnitsSpawnerSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Authoring.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Authoring/MainBuildingAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Authoring/MainBuildingAuthoring.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/BuildingType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/BuildingType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems/UnitsSpawnerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems/UnitsSpawnerSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems/UnitsSpawnerSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems/UnitsSpawnerSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/GameMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/GameMode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/GameMode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/GameMode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/MatchMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/MatchMode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/MatchMode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/MatchMode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Authoring.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS/Authoring.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS/Components.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntityData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitsConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitsConfig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Systems.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS/Systems.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/MainMenu/MenuSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/MainMenu/MenuSettings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +66,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc80a26102dc4b719434b3d3734346dd170a00/14/2b67a719/ChunkIndexInQuery.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Core/TimeData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities.Editor/Hierarchy/HierarchyWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities.Hybrid/Baking/TransformUsageFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/IJobEntity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SystemBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SystemState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Transforms/LocalTransform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Moon Active/tic-tac-toe/TicTacToeGame/Assets/_Project/_Scripts/Game/TicTacToe/Data/TicTacToeConfig.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -125,7 +169,7 @@
       <workItem from="1705439403416" duration="5000000" />
       <workItem from="1705684032224" duration="1606000" />
       <workItem from="1705687112801" duration="642000" />
-      <workItem from="1705688024849" duration="1278000" />
+      <workItem from="1705688024849" duration="8076000" />
     </task>
     <servers />
   </component>

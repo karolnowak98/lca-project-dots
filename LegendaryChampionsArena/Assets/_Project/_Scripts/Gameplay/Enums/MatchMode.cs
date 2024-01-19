@@ -1,4 +1,4 @@
-namespace GlassyCode.LCA.Gameplay
+namespace GlassyCode.LCA.Gameplay.Enums
 {
     public enum MatchMode
     {

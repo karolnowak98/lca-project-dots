@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GlassyCode.LCA.Gameplay
+namespace GlassyCode.LCA.MainMenu
 {
     [CreateAssetMenu(fileName = "Game Settings", menuName = "Settings/Game")]
     public class MenuSettings : ScriptableObject
