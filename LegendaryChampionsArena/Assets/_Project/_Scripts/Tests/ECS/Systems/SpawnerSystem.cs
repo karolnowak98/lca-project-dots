@@ -5,7 +5,6 @@ using Unity.Transforms;
 
 namespace GlassyCode.LCA.Tests.ECS.Systems
 {
-    [BurstCompile]
     public partial struct OptimizedSpawnerSystem : ISystem
     {
         public void OnCreate(ref SystemState state)

@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Unit Entity
   m_EditorClassIdentifier: 
   <Name>k__BackingField: 
-  <Prefab>k__BackingField: {fileID: 0}
+  <Prefab>k__BackingField: {fileID: 5614933395172760566, guid: d5bac47a4f5178647a64cc5c7d9e2408,
+    type: 3}
+  <SpawningOffset>k__BackingField: {x: 1.25, y: 0, z: 0}
