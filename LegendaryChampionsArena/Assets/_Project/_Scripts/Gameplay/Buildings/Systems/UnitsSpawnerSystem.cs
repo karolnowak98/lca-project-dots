@@ -18,17 +18,19 @@ namespace GlassyCode.LCA.Gameplay.Buildings.Systems
         {
             var ecb = GetEntityCommandBuffer(ref state);
             
-            new ProcessSpawningJob
+            var job = new ProcessSpawningJob
             {
-                ElapsedTime = SystemAPI.Time.ElapsedTime,
-                Ecb = ecb
-            }.ScheduleParallel();
+                Ecb = ecb,
+                ElapsedTime = SystemAPI.Time.ElapsedTime
+            };
+                
+            job.ScheduleParallel();
         }
 
         [BurstCompile]
         public void OnDestroy(ref SystemState state)
         {
-
+            
         }
         
         private EntityCommandBuffer.ParallelWriter GetEntityCommandBuffer(ref SystemState state)
@@ -38,14 +40,14 @@ namespace GlassyCode.LCA.Gameplay.Buildings.Systems
             return ecb.AsParallelWriter();
         }
     }
-
+    
     [BurstCompile]
     public partial struct ProcessSpawningJob : IJobEntity
     {
         public EntityCommandBuffer.ParallelWriter Ecb;
         public double ElapsedTime;
-
-        private void Execute([ChunkIndexInQuery] int chunkIndex, ref MainBuilding building)
+        
+        public void Execute([ChunkIndexInQuery] int chunkIndex, ref MainBuilding building)
         {
             if (building.NextSpawnTime < ElapsedTime)
             {
