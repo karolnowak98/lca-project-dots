@@ -8,14 +8,14 @@ namespace GlassyCode.LCA.Gameplay.Grid.ECS
 {
     public class GridAuthoring : MonoBehaviour
     {
-        [field: SerializeField] public GridSettings GridSettings { get; private set; }
+        [field: SerializeField] public GridConfig GridConfig { get; private set; }
         
         private class GridAuthoringBaker : Baker<GridAuthoring>
         {
             public override void Bake(GridAuthoring authoring)
             {
-                var gridSize = authoring.GridSettings.GridSize;
-                var fieldSize = authoring.GridSettings.FieldSize;
+                var gridSize = authoring.GridConfig.GridSize;
+                var fieldSize = authoring.GridConfig.FieldSize;
                 var builder = new BlobBuilder(Allocator.Temp);
 
                 ref var gridFields = ref builder.ConstructRoot<GridFields>();

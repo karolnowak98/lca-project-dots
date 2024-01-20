@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GlassyCode.LCA.Utils
+namespace GlassyCode.LCA.Core.Utils
 {
     //Represents not abstract game object
     public abstract class BaseEntityData : ScriptableObject

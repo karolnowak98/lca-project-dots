@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6443e691b3fc45d3beaa7d1e07a7b81a, type: 3}
-  m_Name: Grid Settings
+  m_Name: Grid Config
   m_EditorClassIdentifier: 
   <GridSize>k__BackingField:
     x: 200

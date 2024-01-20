@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2e8888ec921f0dc469405c8a58b6c495
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 8404be70184654265930450def6a9037, type: 3}
+  generateWrapperCode: 1
+  wrapperCodePath: Assets/_Project/_Scripts/Core/Input/PlayerControls.cs
+  wrapperClassName: 
+  wrapperCodeNamespace: GlassyCode.LCA.Core.Input

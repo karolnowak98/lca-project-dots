@@ -1,6 +1,6 @@
+using GlassyCode.LCA.Core.Utils;
 using UnityEngine;
 using GlassyCode.LCA.Gameplay.Enums;
-using GlassyCode.LCA.Utils;
 
 namespace GlassyCode.LCA.Gameplay.Units.Data
 {

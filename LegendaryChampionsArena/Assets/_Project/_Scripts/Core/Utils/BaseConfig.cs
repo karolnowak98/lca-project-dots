@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
 
-namespace GlassyCode.LCA.Utils
+namespace GlassyCode.LCA.Core.Utils
 {
-    public abstract class BaseSettings : ScriptableObject
+    public abstract class BaseConfig : ScriptableObject
     {
         public Guid Id { get; private set; } = Guid.NewGuid();
     }
