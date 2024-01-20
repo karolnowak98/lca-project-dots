@@ -1,10 +1,10 @@
 using UnityEngine;
-using GlassyCode.LCA.Utility;
 using GlassyCode.LCA.Gameplay.Enums;
+using GlassyCode.LCA.Utils;
 
 namespace GlassyCode.LCA.Gameplay.Units.Data
 {
-    [CreateAssetMenu(fileName = "Unit Entity", menuName = "Entities/Unit")]
+    [CreateAssetMenu(fileName = "Unit Entity Data", menuName = "Entities Data/Unit")]
     public class UnitEntityData : BaseEntityData
     {
         [field: SerializeField] public UnitName Name { get; private set; }

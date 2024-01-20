@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GlassyCode.LCA.Gameplay.Buildings.Data
 {
-    [CreateAssetMenu(fileName = "Main Building Entity", menuName = "Entities/Main Building")]
+    [CreateAssetMenu(fileName = "Town Entity Data", menuName = "Entities Data/Town")]
     public class TownEntityData : BuildingEntityData
     {
         [field: Header("Unit Spawning")]

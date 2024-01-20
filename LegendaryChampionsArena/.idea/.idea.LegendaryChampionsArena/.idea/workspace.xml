@@ -5,54 +5,224 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78765a02-0c91-489e-8130-6937b656b605" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingEntityData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingEntityData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/TownEntityData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/TownEntityData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/ArmorType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/ArmorType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/AttackType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/AttackType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseEntityData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Components/Town.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Components/Town.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/Data/GridSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/Data/GridSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/Grid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/Grid.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/GridAuthoring.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/GridAuthoring.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/GridFields.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/GridFields.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/GridSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Grid/ECS/GridSystem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/BeveledBoxBoundsHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/BeveledBoxBoundsHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/BeveledCylinderBoundsHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/BeveledCylinderBoundsHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/PhysicsBoundsHandleUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/PhysicsBoundsHandleUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/PhysicsCapsuleBoundsHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/PhysicsCapsuleBoundsHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/PhysicsSphereBoundsHandle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/EditorTools/PhysicsSphereBoundsHandle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/BallAndSocketJointEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/BallAndSocketJointEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/CustomPhysicsMaterialTagNamesEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/CustomPhysicsMaterialTagNamesEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/EditorUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/EditorUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/LimitedHingeJointEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/LimitedHingeJointEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/PhysicsBodyAuthoringEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/PhysicsBodyAuthoringEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/PhysicsCategoryNamesEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/PhysicsCategoryNamesEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/PhysicsShapeAuthoringEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/PhysicsShapeAuthoringEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/RagdollJointEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Editors/RagdollJointEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/BaseDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/BaseDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/EnumFlagsDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/EnumFlagsDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/EulerAnglesDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/EulerAnglesDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/ExpandChildrenDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/ExpandChildrenDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/PhysicsMaterialCoefficientDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/PhysicsMaterialCoefficientDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/PhysicsMaterialPropertiesDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/PhysicsMaterialPropertiesDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/SoftRangeDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/SoftRangeDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/TagsDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/PropertyDrawers/TagsDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Unity.Physics.Custom.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Unity.Physics.Custom.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/EditorGUIControls.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/EditorGUIControls.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/ManipulatorUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/ManipulatorUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/SceneViewUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/SceneViewUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/StatusMessageUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.Editor/Utilities/StatusMessageUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/BaseBodyPairConnector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/BaseBodyPairConnector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/BakingSystems.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/BakingSystems/PhysicsBodyBakingSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/BakingSystems/PhysicsBodyBakingSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/BakingSystems/PhysicsShapeBakingSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/BakingSystems/PhysicsShapeBakingSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/PhysicsBodyAuthoring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/PhysicsBodyAuthoring.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/PhysicsShapeAuthoring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Bodies/PhysicsShapeAuthoring.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/CustomPhysicsMaterialTagNames.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/CustomPhysicsMaterialTagNames.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/CustomPhysicsMaterialTags.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/CustomPhysicsMaterialTags.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/EditorInitialization.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/EditorInitialization.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/BallAndSocketJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/BallAndSocketJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/BaseJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/BaseJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/FreeHingeJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/FreeHingeJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/LimitDOFJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/LimitDOFJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/LimitedDistanceJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/LimitedDistanceJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/LimitedHingeJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/LimitedHingeJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/ModifyJointLimitsAuthoring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/ModifyJointLimitsAuthoring.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/PrismaticJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/PrismaticJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/RagdollJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/RagdollJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/RigidJoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Joints/RigidJoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/AngularVelocityMotor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/AngularVelocityMotor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/LinearVelocityMotor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/LinearVelocityMotor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/PositionMotor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/PositionMotor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/RotationalMotor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Motors/RotationalMotor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsCategoryNames.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsCategoryNames.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsCategoryTags.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsCategoryTags.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsMaterialProperties.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsMaterialProperties.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsMaterialTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsMaterialTemplate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsRenderEntityAuthoring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/PhysicsRenderEntityAuthoring.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Unity.Physics.Custom.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Unity.Physics.Custom.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/BakeGeometryJobs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/BakeGeometryJobs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/BakeGeometryJobsExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/BakeGeometryJobsExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/CapsuleGeometryAuthoring.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/CapsuleGeometryAuthoring.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/ConvexHullGenerationParametersExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/ConvexHullGenerationParametersExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/EulerAngles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/EulerAngles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/GetActiveChildrenScope.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/GetActiveChildrenScope.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/PhysicsShapeExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/PhysicsShapeExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/PropertyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Unity Physics/1.0.16/Custom Physics Authoring/Unity.Physics.Custom/Utilities/PropertyAttributes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneDependencyCache.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest/SubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest/SubScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Authoring.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Authoring/MainBuildingAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Authoring/MainBuildingAuthoring.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/BuildingType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/BuildingType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems/UnitsSpawnerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems/UnitsSpawnerSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Systems/UnitsSpawnerSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems/UnitsSpawnerSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/GameMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/GameMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/GameMode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/GameMode.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/MatchMode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/MatchMode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/MatchMode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Enums/MatchMode.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Authoring.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS/Authoring.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS/Components.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntityData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntityData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitsConfig.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitsConfig.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Systems.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/ECS/Systems.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/MainMenu/MenuSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/MainMenu/MenuSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest/SubScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpawnerTest/SubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Data/Configs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Data/Configs/Game Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Data/Configs/Game Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Castles/Castle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Castles/Castle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Units/Unit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Units/Unit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingEntityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/BuildingEntityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/TownEntityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/Data/TownEntityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems/UnitsSpawnerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Systems/UnitsSpawnerSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Units/Data/UnitEntityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Authoring/SpawnerAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Authoring/SpawnerAuthoring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utils.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseEntityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utils/BaseEntityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseEntityData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utils/BaseEntityData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utils/BaseSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utility/BaseSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Utils/BaseSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +233,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/47e18c8a30ec4a8fb5d2c290d37500bc170a00/75/d323d5cf/WorldSystemFilterFlags.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc80a26102dc4b719434b3d3734346dd170a00/14/2b67a719/ChunkIndexInQuery.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../BLUM Entertainment/BoG/Assets/_BOG/_Grid/Scripts/1.Data/GridConfig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../BLUM Entertainment/BoG/Assets/_BOG/_Grid/Scripts/2.Logic/Grid/Grid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../BLUM Entertainment/BoG/Assets/_BOG/_Grid/Scripts/2.Logic/Grid/GridCreator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../BLUM Entertainment/BoG/Assets/_BOG/_Grid/Scripts/2.Logic/Grid/GridField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Core/TimeData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities.Editor/Hierarchy/HierarchyWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities.Hybrid/Baking/TransformUsageFlags.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,32 +259,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor &amp; Play.executor&quot;: &quot;Debug&quot;,
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Standalone Player.Unit Tests (batch mode).executor&quot;: &quot;Run&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.42356688&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/buildings&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor & Play.executor": "Debug",
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Standalone Player.Unit Tests (batch mode).executor": "Run",
+    "XThreadsFramesViewSplitterKey": "0.42356688",
+    "git-widget-placeholder": "feature/grid",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Inspections-C#",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Karol\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Karol\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Karol\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Karol\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Karol\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Karol\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe" />
@@ -137,10 +312,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9672">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9672" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -169,7 +344,7 @@
       <workItem from="1705439403416" duration="5000000" />
       <workItem from="1705684032224" duration="1606000" />
       <workItem from="1705687112801" duration="642000" />
-      <workItem from="1705688024849" duration="8076000" />
+      <workItem from="1705688024849" duration="23316000" />
     </task>
     <servers />
   </component>
@@ -180,5 +355,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

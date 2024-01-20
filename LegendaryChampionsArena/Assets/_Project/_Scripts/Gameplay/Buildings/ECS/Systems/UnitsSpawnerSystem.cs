@@ -1,7 +1,7 @@
-using GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Transforms;
+using GlassyCode.LCA.Gameplay.Buildings.ECS.Components;
 
 namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Systems
 {
@@ -37,7 +37,7 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Systems
         public double ElapsedTime;
         
         //Might be private, probably for testing purposes better is public
-        public void Execute([ChunkIndexInQuery] int chunkIndex, ref Town town)
+        private void Execute([ChunkIndexInQuery] int chunkIndex, ref Town town)
         {
             if (town.NextSpawnTime < ElapsedTime)
             {

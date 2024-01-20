@@ -1,5 +1,5 @@
 using GlassyCode.LCA.Gameplay.Enums;
-using GlassyCode.LCA.Utility;
+using GlassyCode.LCA.Utils;
 using UnityEngine;
 
 namespace GlassyCode.LCA.Gameplay.Buildings.Data
