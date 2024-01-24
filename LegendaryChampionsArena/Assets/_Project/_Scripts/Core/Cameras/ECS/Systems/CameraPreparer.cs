@@ -7,14 +7,14 @@ using Unity.Transforms;
 
 namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
 {
-    [UpdateInGroup(typeof(TransformSystemGroup))]
+    [UpdateBefore(typeof(TransformSystemGroup))]
+    [UpdateBefore(typeof(CameraUpdater))]
     public partial struct CameraPreparer : ISystem
     {
         [BurstCompile]
         public void OnCreate(ref SystemState state)
         {
             state.RequireForUpdate<MoveCameraInput>();
-            state.RequireForUpdate<MainCamera>();
         }
 
         [BurstCompile]
@@ -39,9 +39,11 @@ namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
         public float DeltaTime;
         public float2 MoveCameraInput;
         
-        private void Execute(ref MainCamera camera)
+        private void Execute(CameraAspect cameraAspect)
         {
-            camera.Position.xz +=  MoveCameraInput * DeltaTime * camera.MoveSpeed;
+            var position = cameraAspect.Position;
+            position.xz += MoveCameraInput * DeltaTime * cameraAspect.MoveSpeed;
+            cameraAspect.Position = position;
         }
     }
 }

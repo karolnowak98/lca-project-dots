@@ -1,28 +1,30 @@
 using GlassyCode.LCA.Core.Cameras.ECS.Components;
 using Unity.Burst;
 using Unity.Entities;
+using Unity.Transforms;
 
 namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
 {
+    [UpdateAfter(typeof(TransformSystemGroup))]
     public partial struct CameraUpdater : ISystem
     {
         [BurstCompile]
         public void OnCreate(ref SystemState state)
         {
-            state.RequireForUpdate<MainCamera>();
+            state.RequireForUpdate<Camera>();
         }
 
         public void OnUpdate(ref SystemState state)
         {
-            var mainCameraEntity = SystemAPI.GetSingleton<MainCamera>();
+            var mainCameraEntity = SystemAPI.GetSingleton<Camera>();
 
-            if (!CamerasManager.Instance.IsMainCameraReady)
+            if (!CameraManager.Instance.IsMainCameraReady)
             {
-                CamerasManager.Instance.PlaceMainCamera(mainCameraEntity.Position);
+                CameraManager.Instance.PlaceMainCamera(mainCameraEntity.Position);
             }
             
-            CamerasManager.Instance.SetMainCameraPosition(mainCameraEntity.Position);
-            CamerasManager.Instance.SetMainCameraRotation(mainCameraEntity.Rotation);
+            CameraManager.Instance.SetCameraPosition(mainCameraEntity.Position);
+            CameraManager.Instance.SetCameraRotation(mainCameraEntity.Rotation);
         }
     }
 }

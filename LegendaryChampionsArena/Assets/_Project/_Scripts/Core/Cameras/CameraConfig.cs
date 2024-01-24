@@ -4,9 +4,9 @@ using UnityEngine;
 namespace GlassyCode.LCA.Core.Cameras
 {
     [CreateAssetMenu(fileName = "Camera Config", menuName = "Configs/Camera")]
-    public class CamerasConfig : BaseConfig
+    public class CameraConfig : BaseConfig
     {
-        [field: SerializeField] public float MainCameraMoveSpeed { get; set; }
+        [field: SerializeField] public float CameraMoveSpeed { get; set; }
         [field: SerializeField] public float CameraSmoothness { get; set; }
     }
 }

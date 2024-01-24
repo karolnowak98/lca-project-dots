@@ -5,61 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78765a02-0c91-489e-8130-6937b656b605" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring/CameraAuthoring.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring/CameraAuthoring.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/MainCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/MainCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraPreparer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraPreparer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraUpdater.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraUpdater.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/CameraAspect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/CameraAspect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/CameraData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/CameraData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneDependencyCache/c647061a9dd29758c4efc0e862c47b76.sceneWithBuildSettings.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Data/Configs/Camera Config.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Data/Configs/Camera Config.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Castles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Castles/Castle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Castles/Castle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Cube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Grid.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Grid.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Units.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Units/Unit.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Units/Unit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art/Materials/Plane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art/Materials/Plane.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Data/Configs/Cameras Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Data/Configs/Cameras Config.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/CamerasManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/CamerasManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Grid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Grid.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Grid.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/SubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/SubScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/Camera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/Camera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/CameraAuthoring.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/CameraAuthoring.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/CameraConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/CameraConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasConfig.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/CameraMovementSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Camera/CameraMovementSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Input/ECS/Systems/PlayerInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Input/ECS/Systems/PlayerInputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Authoring.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Authoring/SpawnerAuthoring.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Authoring/SpawnerAuthoring.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Components/.idea/.idea.Components.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Components/.idea/.idea.Components.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Components/.idea/.idea.Components.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Components/Spawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Components/Spawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Systems.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Systems/SpawnerSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Tests/ECS/Systems/SpawnerSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CameraConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CameraConfig.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CameraManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CamerasManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CameraManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring/CameraAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring/CameraAuthoring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/MainCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/Camera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/MainCamera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Components/Camera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraPreparer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraPreparer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraUpdater.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +167,7 @@
       <workItem from="1706030130640" duration="8446000" />
       <workItem from="1706045366084" duration="7754000" />
       <workItem from="1706054090462" duration="1770000" />
-      <workItem from="1706105494566" duration="1079000" />
+      <workItem from="1706105494566" duration="5691000" />
     </task>
     <servers />
   </component>
@@ -211,25 +178,6 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring/CameraAuthoring.cs</url>
-          <line>20</line>
-          <properties documentPath="D:\Unity Projects\Glassy Code\lca-project\LegendaryChampionsArena\Assets\_Project\_Scripts\Core\Cameras\ECS\Authoring\CameraAuthoring.cs" initialLine="20" containingFunctionPresentation="Method 'Bake'">
-            <startOffsets>
-              <option value="672" />
-            </startOffsets>
-            <endOffsets>
-              <option value="721" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

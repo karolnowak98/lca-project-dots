@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6108ffdc21a9483a8a26010235edd1ac, type: 3}
   m_Name: Cameras Config
   m_EditorClassIdentifier: 
-  <MainCameraMoveSpeed>k__BackingField: 25
-  <CameraSmoothness>k__BackingField: 1
+  <CameraMoveSpeed>k__BackingField: 25
+  <CameraSmoothness>k__BackingField: 0.9

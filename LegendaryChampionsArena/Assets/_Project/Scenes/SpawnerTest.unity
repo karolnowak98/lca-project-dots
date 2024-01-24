@@ -393,13 +393,13 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2845956385312464539, guid: 64f8456fe5c09b84f8295f8e9a26ad1d,
         type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.95
+      propertyPath: m_LocalPosition.x
+      value: -4.11
       objectReference: {fileID: 0}
     - target: {fileID: 3950819425873761822, guid: 64f8456fe5c09b84f8295f8e9a26ad1d,
         type: 3}
       propertyPath: m_Name
-      value: CamerasManager
+      value: CameraManager
       objectReference: {fileID: 0}
     - target: {fileID: 4931010880077734446, guid: 64f8456fe5c09b84f8295f8e9a26ad1d,
         type: 3}

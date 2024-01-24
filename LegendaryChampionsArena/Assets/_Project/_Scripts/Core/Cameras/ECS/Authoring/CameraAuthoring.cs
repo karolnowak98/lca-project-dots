@@ -1,27 +1,26 @@
 using GlassyCode.LCA.Core.Cameras.ECS.Components;
 using Unity.Entities;
 using UnityEngine;
+using Camera = GlassyCode.LCA.Core.Cameras.ECS.Components.Camera;
 
 namespace GlassyCode.LCA.Core.Cameras.ECS.Authoring
 {
     public class CameraAuthoring : MonoBehaviour
     {
-        [field: SerializeField] public CamerasConfig CamerasConfig { get; private set; }
-        
         private class MainCameraAuthoringBaker : Baker<CameraAuthoring>
         {
             public override void Bake(CameraAuthoring authoring)
             {
-                if (authoring.CamerasConfig == null)
-                {
-                    Debug.LogError("Make sure Cameras Config is not empty!");
-                    return;
-                }
-
                 var entity = GetEntity(TransformUsageFlags.None);
-                AddComponent(entity, new MainCamera
+                
+                AddComponent(entity, new Camera
                 {
-                    MoveSpeed = authoring.CamerasConfig.MainCameraMoveSpeed
+                    Position = CameraManager.Instance.CameraPosition,
+                    Rotation = CameraManager.Instance.CameraRotation,
+                });
+                AddComponent(entity, new CameraData
+                {
+                    MoveSpeed = CameraManager.Instance.CameraMoveSpeed
                 });
             }
         }
