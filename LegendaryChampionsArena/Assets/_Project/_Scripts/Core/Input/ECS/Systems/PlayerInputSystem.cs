@@ -12,7 +12,7 @@ namespace GlassyCode.LCA.Core.Input.ECS.Systems
         
         protected override void OnCreate()
         {
-            RequireForUpdate<MoveCameraInput>();
+            EntityManager.CreateEntity(typeof(MoveCameraInput));
             
             _gameInput = new GameInput();
         }
@@ -25,7 +25,7 @@ namespace GlassyCode.LCA.Core.Input.ECS.Systems
         protected override void OnUpdate()
         {
             var moveInput = _gameInput.GamePlay.MoveCamera.ReadValue<Vector2>();
-            
+
             SystemAPI.SetSingleton(new MoveCameraInput {Value = moveInput});
         }
 
