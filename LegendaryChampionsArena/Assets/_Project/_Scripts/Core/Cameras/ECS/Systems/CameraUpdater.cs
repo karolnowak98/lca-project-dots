@@ -6,6 +6,7 @@ using Unity.Transforms;
 namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
 {
     [UpdateAfter(typeof(TransformSystemGroup))]
+    [UpdateAfter(typeof(CameraPreparer))]
     public partial struct CameraUpdater : ISystem
     {
         [BurstCompile]

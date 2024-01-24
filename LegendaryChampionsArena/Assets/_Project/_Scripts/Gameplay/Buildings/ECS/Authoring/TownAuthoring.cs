@@ -1,7 +1,6 @@
 using GlassyCode.LCA.Gameplay.Buildings.Data;
 using GlassyCode.LCA.Gameplay.Buildings.ECS.Components;
 using Unity.Entities;
-using Unity.Mathematics;
 using UnityEngine;
 
 namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring
@@ -14,6 +13,8 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring
         {
             public override void Bake(TownAuthoring authoring)
             {
+                DependsOn(authoring.TownEntityData);
+                
                 if (authoring.TownEntityData == null)
                 {
                     Debug.LogError("Make sure Town Entity Data is not empty at any Town Authoring!");
@@ -21,6 +22,7 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring
                 }
                 
                 var entity = GetEntity(TransformUsageFlags.Renderable);
+                
                 AddComponent(entity, new Town
                 {
                     UnitPrefab = GetEntity(authoring.TownEntityData.UnitToSpawn.Prefab, TransformUsageFlags.Dynamic),

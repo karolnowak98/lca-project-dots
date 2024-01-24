@@ -7,21 +7,21 @@ namespace GlassyCode.LCA.Core.Cameras.ECS.Components
     {
         public readonly Entity Self;
         
-        private readonly RefRO<CameraData> CameraData;
-        private readonly RefRW<Camera> Camera;
+        private readonly RefRO<CameraData> _cameraData;
+        private readonly RefRW<Camera> _camera;
         
-        public float MoveSpeed => CameraData.ValueRO.MoveSpeed;
+        public float MoveSpeed => _cameraData.ValueRO.MoveSpeed;
         
         public quaternion Rotation
         {
-            get => Camera.ValueRO.Rotation;
-            set => Camera.ValueRW.Rotation = value;
+            get => _camera.ValueRO.Rotation;
+            set => _camera.ValueRW.Rotation = value;
         }
 
         public float3 Position
         {
-            get => Camera.ValueRO.Position;
-            set => Camera.ValueRW.Position = value;
+            get => _camera.ValueRO.Position;
+            set => _camera.ValueRW.Position = value;
         }
     }
 }

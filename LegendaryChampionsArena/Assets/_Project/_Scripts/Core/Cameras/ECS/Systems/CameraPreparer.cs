@@ -8,7 +8,6 @@ using Unity.Transforms;
 namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
 {
     [UpdateBefore(typeof(TransformSystemGroup))]
-    [UpdateBefore(typeof(CameraUpdater))]
     public partial struct CameraPreparer : ISystem
     {
         [BurstCompile]

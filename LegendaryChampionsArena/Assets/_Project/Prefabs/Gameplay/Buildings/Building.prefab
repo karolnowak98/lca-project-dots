@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 2236476881085722142}
   - component: {fileID: 113015918192023446}
   - component: {fileID: 4656557055381501940}
-  - component: {fileID: 1899000654469370590}
   m_Layer: 0
-  m_Name: Castle
+  m_Name: Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,7 +32,7 @@ Transform:
   m_Children:
   - {fileID: 4113306404401514175}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &113015918192023446
 MonoBehaviour:
@@ -229,20 +228,6 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
---- !u!114 &1899000654469370590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2371614598209057512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f6d8709b367488ca49142b09fbe9021, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <TownEntityData>k__BackingField: {fileID: 11400000, guid: c207ee9a6110d0448bb29795d1329d39,
-    type: 2}
 --- !u!1 &8639910103071220466
 GameObject:
   m_ObjectHideFlags: 0
