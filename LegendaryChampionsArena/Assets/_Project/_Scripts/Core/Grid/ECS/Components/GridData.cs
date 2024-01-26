@@ -1,8 +1,8 @@
 using Unity.Entities;
 
-namespace GlassyCode.LCA.Gameplay.Grid.ECS
+namespace GlassyCode.LCA.Core.Grid.ECS.Components
 {
-    public struct Grid : IComponentData
+    public struct GridData : IComponentData
     {
         public BlobAssetReference<GridFields> GridFields;
         public int FieldSize;

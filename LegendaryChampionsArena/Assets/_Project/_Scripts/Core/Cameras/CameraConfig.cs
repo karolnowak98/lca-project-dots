@@ -1,4 +1,4 @@
-using GlassyCode.LCA.Core.Utils;
+using GlassyCode.LCA.Utils;
 using UnityEngine;
 
 namespace GlassyCode.LCA.Core.Cameras

@@ -1,7 +1,7 @@
 using Unity.Entities;
 using Unity.Mathematics;
 
-namespace GlassyCode.LCA.Gameplay.Grid.ECS
+namespace GlassyCode.LCA.Core.Grid.ECS.Components
 {
     public struct GridFields
     {

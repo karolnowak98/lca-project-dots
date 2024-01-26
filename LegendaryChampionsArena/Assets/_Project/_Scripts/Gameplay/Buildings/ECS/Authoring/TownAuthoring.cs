@@ -1,5 +1,6 @@
 using GlassyCode.LCA.Gameplay.Buildings.Data;
 using GlassyCode.LCA.Gameplay.Buildings.ECS.Components;
+using GlassyCode.LCA.Utils.ECS;
 using Unity.Entities;
 using UnityEngine;
 
@@ -8,8 +9,9 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring
     public class TownAuthoring : MonoBehaviour
     {
         [field: SerializeField] public TownEntityData TownEntityData { get; private set; }
+        [field: SerializeField] public Transform SpawnPoint { get; private set; }
         
-        private class MainBuildingAuthoringBaker : Baker<TownAuthoring>
+        private class TownAuthoringBaker : Baker<TownAuthoring>
         {
             public override void Bake(TownAuthoring authoring)
             {
@@ -23,11 +25,12 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring
                 
                 var entity = GetEntity(TransformUsageFlags.Renderable);
                 
-                AddComponent(entity, new Town
+                AddComponent(entity, new Town());
+                AddComponent(entity, new Spawner
                 {
-                    UnitPrefab = GetEntity(authoring.TownEntityData.UnitToSpawn.Prefab, TransformUsageFlags.Dynamic),
+                    PrefabToSpawn = GetEntity(authoring.TownEntityData.UnitToSpawn.Prefab, TransformUsageFlags.Dynamic),
                     SpawnRate = authoring.TownEntityData.StartingSpawnRate,
-                    SpawnPosition = authoring.TownEntityData.StartingSpawnRate,
+                    SpawnPosition = authoring.SpawnPoint.position,
                     NextSpawnTime = 0.0f
                 });
             }

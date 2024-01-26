@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3026690484964104576}
   - component: {fileID: 3698056852897039342}
   - component: {fileID: 2434965959341222486}
+  - component: {fileID: 7447203921653103114}
   m_Layer: 0
   m_Name: Unit
   m_TagString: Untagged
@@ -191,8 +192,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MotionType: 0
   m_Smoothing: 0
-  m_Mass: 1
-  m_LinearDamping: 0.01
+  m_Mass: 130.5
+  m_LinearDamping: 41.71
   m_AngularDamping: 0.05
   m_InitialLinearVelocity:
     x: 0
@@ -202,10 +203,10 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 1
+  m_GravityFactor: 7.3
   m_OverrideDefaultMassDistribution: 0
   m_CenterOfMass:
-    x: 0
+    x: 3.11
     y: 0
     z: 0
   m_Orientation:
@@ -228,6 +229,33 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
+--- !u!54 &7447203921653103114
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614933395172760566}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7098646999276373670
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,18 +36,14 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Systems
         public EntityCommandBuffer.ParallelWriter Ecb;
         public double ElapsedTime;
         
-        //Might be private, probably for testing purposes better is public
-        private void Execute([ChunkIndexInQuery] int chunkIndex, ref Town town)
+        private void Execute([ChunkIndexInQuery] int chunkIndex, TownAspect townAspect)
         {
-            if (town.NextSpawnTime < ElapsedTime)
-            {
-                var newUnit = Ecb.Instantiate(chunkIndex, town.UnitPrefab);
-                
-                var newPosition = town.SpawnPosition;
-                Ecb.SetComponent(chunkIndex, newUnit, LocalTransform.FromPosition(town.SpawnPosition));
-
-                town.NextSpawnTime = (float) ElapsedTime + town.SpawnRate;
-            }
+            if (townAspect.NextSpawnTime >= ElapsedTime)
+                return;
+            
+            var newUnit = Ecb.Instantiate(chunkIndex, townAspect.PrefabToSpawn);
+            Ecb.SetComponent(chunkIndex, newUnit, LocalTransform.FromPosition(townAspect.SpawnPosition));
+            townAspect.NextSpawnTime = (float)ElapsedTime + townAspect.SpawnRate;
         }
     }
 }

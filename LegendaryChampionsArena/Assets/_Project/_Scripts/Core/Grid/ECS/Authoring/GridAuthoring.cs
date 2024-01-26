@@ -1,10 +1,10 @@
-using GlassyCode.LCA.Gameplay.Grid.Data;
+using GlassyCode.LCA.Core.Grid.ECS.Components;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
 
-namespace GlassyCode.LCA.Gameplay.Grid.ECS
+namespace GlassyCode.LCA.Core.Grid.ECS.Authoring
 {
     public class GridAuthoring : MonoBehaviour
     {
@@ -48,7 +48,15 @@ namespace GlassyCode.LCA.Gameplay.Grid.ECS
                 
                 AddBlobAsset(ref blobReference, out _);
                 var entity = GetEntity(TransformUsageFlags.None);
-                AddComponent(entity, new Grid { GridFields = blobReference, FieldSize = fieldSize });
+                var gizmosManager = GizmosManager.Instance;
+                
+                AddComponent(entity, new GridData { GridFields = blobReference, FieldSize = fieldSize });
+                AddComponent(entity, new GridGizmo 
+                { 
+                    DrawGridGizmo = gizmosManager.DrawGridGizmo, 
+                    GridHeightOffset = gizmosManager.GridHeightOffset, 
+                    GridFieldDivider = gizmosManager.GridFieldDivider
+                });
             }
         }
     }

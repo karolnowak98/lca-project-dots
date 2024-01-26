@@ -99,6 +99,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Town
       objectReference: {fileID: 0}
+    - target: {fileID: 4656557055381501940, guid: 03d1170ac81afbc49963c0b3607a99de,
+        type: 3}
+      propertyPath: m_MotionType
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -138,3 +143,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <TownEntityData>k__BackingField: {fileID: 11400000, guid: c207ee9a6110d0448bb29795d1329d39,
     type: 2}
+  <SpawnPoint>k__BackingField: {fileID: 5545184127334635571}

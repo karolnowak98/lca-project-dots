@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace GlassyCode.LCA.Core.Utils
+namespace GlassyCode.LCA.Utils
 {
     public abstract class BaseConfig : ScriptableObject
     {
