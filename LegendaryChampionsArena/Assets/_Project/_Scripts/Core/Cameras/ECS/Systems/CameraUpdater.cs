@@ -7,6 +7,7 @@ namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
 {
     [UpdateAfter(typeof(TransformSystemGroup))]
     [UpdateAfter(typeof(CameraPreparer))]
+    [WorldSystemFilter(WorldSystemFilterFlags.ClientSimulation | WorldSystemFilterFlags.ThinClientSimulation)]
     public partial struct CameraUpdater : ISystem
     {
         [BurstCompile]

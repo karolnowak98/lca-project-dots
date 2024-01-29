@@ -16,6 +16,7 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring
             public override void Bake(TownAuthoring authoring)
             {
                 DependsOn(authoring.TownEntityData);
+                DependsOn(authoring.SpawnPoint);
                 
                 if (authoring.TownEntityData == null)
                 {
@@ -23,6 +24,12 @@ namespace GlassyCode.LCA.Gameplay.Buildings.ECS.Authoring
                     return;
                 }
                 
+                if (authoring.SpawnPoint == null)
+                {
+                    Debug.LogError("Make sure Spawn Point of spawner is not empty at any Town Authoring!");
+                    return;
+                }
+
                 var entity = GetEntity(TransformUsageFlags.Renderable);
                 
                 AddComponent(entity, new Town());

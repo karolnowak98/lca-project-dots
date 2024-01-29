@@ -14,6 +14,12 @@ namespace GlassyCode.LCA.Core.Grid.ECS.Authoring
         {
             public override void Bake(GridAuthoring authoring)
             {
+                if (authoring.GridConfig == null)
+                {
+                    Debug.LogError("Make sure Grid Config is not empty at any Grid Authoring!");
+                    return;
+                }
+                
                 var gridSize = authoring.GridConfig.GridSize;
                 var fieldSize = authoring.GridConfig.FieldSize;
                 var builder = new BlobBuilder(Allocator.Temp);
@@ -48,15 +54,16 @@ namespace GlassyCode.LCA.Core.Grid.ECS.Authoring
                 
                 AddBlobAsset(ref blobReference, out _);
                 var entity = GetEntity(TransformUsageFlags.None);
-                var gizmosManager = GizmosManager.Instance;
                 
                 AddComponent(entity, new GridData { GridFields = blobReference, FieldSize = fieldSize });
-                AddComponent(entity, new GridGizmo 
-                { 
-                    DrawGridGizmo = gizmosManager.DrawGridGizmo, 
-                    GridHeightOffset = gizmosManager.GridHeightOffset, 
-                    GridFieldDivider = gizmosManager.GridFieldDivider
-                });
+                
+                //var gizmosManager = GizmosManager.Instance;
+                // AddComponent(entity, new GridGizmo 
+                // { 
+                //     DrawGridGizmo = gizmosManager.DrawGridGizmo, 
+                //     GridHeightOffset = gizmosManager.GridHeightOffset, 
+                //     GridFieldDivider = gizmosManager.GridFieldDivider
+                // });
             }
         }
     }
