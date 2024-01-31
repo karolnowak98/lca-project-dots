@@ -1,5 +1,6 @@
 using GlassyCode.LCA.Core.Cameras.ECS.Components;
 using GlassyCode.LCA.Core.Input.ECS.Components;
+using GlassyCode.LCA.Core.Netcode.ECS.Components;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
@@ -15,6 +16,8 @@ namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
         public void OnCreate(ref SystemState state)
         {
             state.RequireForUpdate<MoveCameraInput>();
+            state.RequireForUpdate<PlayerInfo>();
+            state.RequireForUpdate<Camera>();
         }
 
         [BurstCompile]

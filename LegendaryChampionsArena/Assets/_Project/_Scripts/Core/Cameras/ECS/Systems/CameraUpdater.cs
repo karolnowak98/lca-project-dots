@@ -1,4 +1,6 @@
 using GlassyCode.LCA.Core.Cameras.ECS.Components;
+using GlassyCode.LCA.Core.Input.ECS.Components;
+using GlassyCode.LCA.Core.Netcode.ECS.Components;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Transforms;
@@ -13,20 +15,29 @@ namespace GlassyCode.LCA.Core.Cameras.ECS.Systems
         [BurstCompile]
         public void OnCreate(ref SystemState state)
         {
+            state.RequireForUpdate<MoveCameraInput>();
+            state.RequireForUpdate<PlayerInfo>();
             state.RequireForUpdate<Camera>();
         }
 
         public void OnUpdate(ref SystemState state)
         {
-            var mainCameraEntity = SystemAPI.GetSingleton<Camera>();
+            var cameraInstance = CameraManager.Instance;
 
-            if (!CameraManager.Instance.IsMainCameraReady)
-            {
-                CameraManager.Instance.PlaceMainCamera(mainCameraEntity.Position);
-            }
+            if (cameraInstance == null) return;
             
-            CameraManager.Instance.SetCameraPosition(mainCameraEntity.Position);
-            CameraManager.Instance.SetCameraRotation(mainCameraEntity.Rotation);
+            var playerName = SystemAPI.GetSingleton<PlayerInfo>().Name;
+            var camera = SystemAPI.GetSingleton<Camera>();
+            
+            if (!cameraInstance.DoCameraExist(playerName))
+            {
+                cameraInstance.CreateCameraForPlayer(playerName);
+            }
+            else
+            {
+                cameraInstance.SetCameraPosition(playerName, camera.Position);
+                //cameraInstance.SetCameraRotation(playerName, camera.Rotation);
+            }
         }
     }
 }

@@ -5,49 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78765a02-0c91-489e-8130-6937b656b605" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/CPUDeviceInformation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/CPUDeviceInformation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/GFXDeviceInformation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/GFXDeviceInformation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/GoInGameRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/GoInGameRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/MemoryDeviceInformation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/MemoryDeviceInformation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/PlayerInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/PlayerInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/RequestPlayerInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/RequestPlayerInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/RequestPlayerInfoAspect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/RequestPlayerInfoAspect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Systems/GoInGameClientSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Systems/GoInGameClientSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Systems/GoInGameServerSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Systems/GoInGameServerSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Systems/SetRpcSystemDynamicAssemblyListSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Systems/SetRpcSystemDynamicAssemblyListSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/GameBootstrap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/GameBootstrap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/PlayerCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/PlayerCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Player/Systems/PlayerSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Player/Systems/PlayerSystem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LegendaryChampionsArena/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Camera/CameraManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Camera/CameraManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gameplay/Buildings/Building.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gameplay/Buildings/Building.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gameplay/Buildings/Town.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gameplay/Buildings/Town.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gameplay/Units/Unit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gameplay/Units/Unit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/SubScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/SubScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Camera/Main Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Core/Camera/Main Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/PlayerSubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/PlayerSubScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/SharedSubScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SpawnerTest/SharedSubScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/CameraManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring/CameraAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Authoring/CameraAuthoring.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraPreparer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraPreparer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Cameras/ECS/Systems/CameraUpdater.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Grid/ECS/Authoring/GridAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Grid/ECS/Authoring/GridAuthoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Gameplay/Buildings/ECS/Authoring/TownAuthoring.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/MemoryDeviceInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/_Scripts/Core/Netcode/ECS/Components/MemoryDeviceInformation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +50,9 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities.Editor/Hierarchy/HierarchyWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities.Hybrid/Baking/Baker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities.Hybrid/Baking/TransformUsageFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/Diff/EntityChangeSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/EntityCommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/EntityManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/IJobEntity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/Iterators/ComponentLookup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SystemAPI.cs" root0="SKIP_HIGHLIGHTING" />
@@ -86,6 +60,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SystemState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@1.0.16/Unity.Transforms/LocalTransform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode@1.0.17/Runtime/Authoring/Hybrid/GhostAuthoringComponentBaker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode@1.0.17/Runtime/Rpc/RpcCommandRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Moon Active/tic-tac-toe/TicTacToeGame/Assets/_Project/_Scripts/Game/TicTacToe/Data/TicTacToeConfig.cs" root0="SKIP_HIGHLIGHTING" />
@@ -207,7 +182,9 @@
       <workItem from="1706290718213" duration="6951000" />
       <workItem from="1706362584172" duration="13555000" />
       <workItem from="1706400285477" duration="3704000" />
-      <workItem from="1706555244873" duration="1435000" />
+      <workItem from="1706555244873" duration="9437000" />
+      <workItem from="1706722297638" duration="2144000" />
+      <workItem from="1706724461638" duration="6218000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,7 @@ namespace GlassyCode.LCA.Core.Netcode.ECS.Components
 
         public override string ToString()
         {
-            var separator = "\n-----------------------\n";
+            const string separator = "\n-----------------------\n";
             var stats = string.Empty;
             stats += $"{separator}";
             stats += $"Memory{separator}";

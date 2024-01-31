@@ -1,5 +1,6 @@
 using GlassyCode.LCA.Core.Cameras.ECS.Components;
 using Unity.Entities;
+using Unity.Mathematics;
 using UnityEngine;
 using Camera = GlassyCode.LCA.Core.Cameras.ECS.Components.Camera;
 
@@ -12,11 +13,13 @@ namespace GlassyCode.LCA.Core.Cameras.ECS.Authoring
             public override void Bake(CameraAuthoring authoring)
             {
                 var entity = GetEntity(TransformUsageFlags.None);
+
+                if (CameraManager.Instance == null) return;
                 
                 AddComponent(entity, new Camera
                 {
-                    Position = CameraManager.Instance.CameraPosition,
-                    Rotation = CameraManager.Instance.CameraRotation,
+                    Position = new float3(5,20,5),
+                    Rotation = new quaternion(60, 0, 0 , 0)
                 });
                 AddComponent(entity, new CameraData
                 {
